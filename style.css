@@ -32,7 +32,7 @@ nav img{
   position: relative;
 }
 .nav-links ul li a{
-  color: #FFFCB3;
+  color: #FFFDBD;
   text-decoration: none;
   font-size: 15px;
 }
@@ -40,7 +40,7 @@ nav img{
   content: '';
   width: 0%;
   height: 2px;
-  background: #fbb;
+  background: #fff;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -53,7 +53,7 @@ nav img{
   display: inline-block;
   padding: 4px 20px;
   position: relative;
-  color: #FFFCB3;
+  color: #FFFDBD;
   font-size: 25px;
   cursor: pointer;
 }
@@ -72,14 +72,14 @@ nav img{
 .text-box p{
   margin: 10px 0 40px;
   font-size: 15px;
-  color: #FFFCB3;
+  color: #FFFDBD;
 }
 .hero-btn{
   display: inline-block;
   text-decoration: none;
-  color: #FFFCB3;
+  color: #FFFDBD;
   border-radius: 95px;
-  border: 1px solid #FFFCB3;
+  border: 1px solid #FFFDBD;
   padding: 10px 25px;
   font-size: 15px;
   background: transparent;
@@ -89,7 +89,7 @@ nav img{
 .hero-btn:hover{
   color: #C90E00;
   border-radius: 15px solid #FFFCB3;
-  background: #FFFCB3;
+  background: #FFFDBD;
   transition: 0.5s;
 }
 nav .fa{
@@ -104,10 +104,33 @@ nav .fa{
    font-size: 15px;
   }
 .icons .fa{
-    color: #FFFCB3;
+    color: #FFFDBD;
     margin: 0 17px;
     cursor: pointer;
     padding: 100px 0;
+}
+.scroll-down{
+  margin: auto;
+  display: flex;
+  text-decoration: none;
+  color: #FFFDBD;
+  cursor: pointer;
+  padding: 5px 8;
+  font-size: 7px;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  border-radius: 50px;
+  border: 1px solid #FFFDBD;
+}
+.scroll-down i{
+  font-size: 40px;
+}
+.scroll-down:hover{
+  color: #C90E00;
+  border-radius: 15px solid #FFFDBD;
+  background: #FFFDBD;
+  transition: 0.5s;
 }
 .container{
   width: 100%;
@@ -129,7 +152,7 @@ nav .fa{
 
   .text-box{
   width: 100%;
-  color: #FFFCB3;
+  color: #FFFDBD;
   position: absolute;
   top: 45%;
   left: 50%;
@@ -150,7 +173,7 @@ nav .fa{
   .hero-btn{
   display: inline-block;
   text-decoration: none;
-  color: #FFFCB3;
+  color: #FFFDBD;
   border: 1px solid #ffb;
   padding: 10px 25px;
   font-size: 14px;
@@ -163,8 +186,8 @@ nav .fa{
 
   .hero-btn:hover{
   color: #C90E00;
-  border: 1px solid #FFFCB3;
-  background: #FFFCB3;
+  border: 1px solid #FFFDBD;
+  background: #FFFDBD;
   transition: 0.5s;
   }
 
@@ -174,10 +197,10 @@ nav .fa{
 
   .nav-links{
     position: absolute;
-    color: #6B5405;
-    background: #F1DD5D;
+    color: #fff;
+    background: #08071C;
     height: 100vh;
-    width: 190px;
+    width: 199px;
     top: 0;
     right: -200px;
     text-align: left;
@@ -186,14 +209,14 @@ nav .fa{
   }
 
   .nav-links ul li a{
-  color: #6B5405;
+  color: #FFFDBD;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 19px;
   }
 
   nav .fa{
     display: block;
-    color: #A78716;
+    color: #FFFDBD;
     margin: 20px;
     font-size: 30px;
     cursor: pointer;
@@ -203,8 +226,18 @@ nav .fa{
     padding: 18px;
   }
 
+  .nav-links ul i{
+    list-style: none;
+    display: flex;
+    padding: 1px 5px;
+    color: #FFFDBD;
+    font-size: 20px;
+    cursor: pointer;
+    left: 3%;
+  }
+
   .icons .fa{
-    color: #f44336;
+    color: #FFFDBD;
     margin: 0 12px;
     cursor: pointer;
     padding: 1px 0;
@@ -212,7 +245,26 @@ nav .fa{
 
   .icons{
     position: absolute;
-    top: 90%;
-    left: 30%;
+    top: 79%;
+    left: 29.5%;
+  }
+
+  .scroll-down{
+    margin: auto;
+    display: flex;
+    text-decoration: none;
+    color: #FFFDBD;
+    cursor: pointer;
+    padding: 5px 8;
+    font-size: 5px;
+    position: absolute;
+    top: 88%;
+    left: 46%;
+    border-radius: 50px;
+    border: 1px solid #FFFDBD;
+  }
+
+  .scroll-down i{
+    font-size: 30px;
   }
 }
