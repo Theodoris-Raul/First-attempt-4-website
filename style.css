@@ -19,7 +19,7 @@ nav{
   align-items: center;
 }
 nav img{
-  width: 120px;
+  width: 80px;
 }
 .nav-links{
   flex: 1;
@@ -146,7 +146,7 @@ nav .fa{
     width: 100%;
   }
   nav img{
-    width: 40%;
+    width: 20%;
     position: center;
   }
 
@@ -161,13 +161,13 @@ nav .fa{
   }
 
   .text-box h1{
-    font-size: 30px;
+    font-size: 220%;
   }
 
   .text-box p{
   margin: 10px 0 40px;
-  font-size: 20px;
-  color: #ffb;
+  font-size: 120%;
+  color: #FFFDBD;
   }
 
   .hero-btn{
@@ -175,13 +175,14 @@ nav .fa{
   text-decoration: none;
   color: #FFFDBD;
   border: 1px solid #ffb;
-  padding: 10px 25px;
-  font-size: 14px;
+  padding: 1.6% 4.5%;
+  font-size: 90%;
   background: transparent;
-  position: relative;
+  position: absolute;
   cursor: pointer;
-  left: 1%;
-  top: 44px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 110%;
   }
 
   .hero-btn:hover{
@@ -244,9 +245,11 @@ nav .fa{
   }
 
   .icons{
+    display: flex;
     position: absolute;
     top: 79%;
-    left: 29.5%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .scroll-down{
@@ -258,8 +261,9 @@ nav .fa{
     padding: 5px 8;
     font-size: 5px;
     position: absolute;
-    top: 88%;
-    left: 46%;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 50px;
     border: 1px solid #FFFDBD;
   }
